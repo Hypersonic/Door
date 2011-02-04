@@ -29,5 +29,5 @@ void Door::enter(Character cCharacter) { // Function to allow a character to ent
 		
 		else { // If the character is not on the first or second side of the door...
 			std::cout << "ERROR: Player is not on either side of door." << std::endl; // Tell them that crazy shit be goin on.
-			exit(1); } } // And perform a halt.
+			std::exit(1); } } // And perform a halt.
 }
