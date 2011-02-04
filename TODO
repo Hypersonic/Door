@@ -1,0 +1,13 @@
+TODO:
+
+--> Figure out why Door1.enter(cPlayer) does not seem to change the room that
+    cPlayer is in.
+
+--> A set of functions to print things to the terminal rather than just use cout, so
+    that statements may be gramatically adjusted ("You are standing" vs. "You is
+    standing" while allowing for "He is standing" vs. "He are standing")
+
+--> A pointer (or some such thing) from the Character class to the Area class that
+    the Character is in. This way, we can get the description of the Character's
+    surroundings without having to cross-check Character GetArea() values against
+    every Area's GetID() values to find the proper Area object.
