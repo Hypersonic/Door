@@ -1,1 +1,21 @@
-This is a game, called Door, about completing a very simple objective: open a door.
+DOOR Rev. 3
+
+TO BUILD: Run
+g++ main.cpp Area.cpp Door.cpp -o door
+
+The executable will be saved as ./door.
+
+
+Source Files
+| main.cpp -- the main code file
+| Config.h -- configuration constants set here
+| Declarations.h -- initialization of objects (pregame) is here
+Ð Classes
+   Ð Area
+      | Area.h -- Header file for Area class
+      | Area.cpp -- cpp file for Area class
+   Ð Character
+      | Character.h -- Header file for Character class (no cpp file needed)
+   Ð Door
+      | Door.h -- Header file for Door class
+      | Door.cpp -- cpp file for Door class
