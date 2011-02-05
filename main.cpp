@@ -30,7 +30,8 @@ int main()
 	cout << cPlayer.GetName() << " is standing in Area " << cPlayer.GetArea() << "." << endl;
 	Door1.enter(cPlayer);
 	cout << cPlayer.GetName() << " is standing in Area " << cPlayer.GetArea() << "." << endl;
-	
+	Door1.enter(cPlayer);
+	cout << cPlayer.GetName() << " is standing in Area " << cPlayer.GetArea() << "." << endl;	
 	
 // BEGIN GAME LOOP SECTION -- NOT READY FOR USE
 	

@@ -37,6 +37,7 @@ public:
 	int GetID() const { return m_nID; }
 	bool Opens() const { return m_bOpens; }
 	int GetSide1() const { return m_nSide1; }
+
 	int GetSide2() const { return m_nSide2; }
 	bool IsLocked() const { return m_bLocked; }
 	int GetKeyID() const { return m_nKeyID; }
