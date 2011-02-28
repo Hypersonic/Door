@@ -10,9 +10,14 @@
 #include <string>
 #include "Door.cpp"
 #include "Character.h"
-void Character::enter (int i) {
+void Character::enter (int cDoor) {
 
-	Character().SetArea(2);
+	SetArea(cDoor);
 	
-	
+}
+void Character::SetArea(int nArea) { 
+	m_nArea = nArea;
+}
+int Character::GetArea() {
+	return m_nArea;
 }

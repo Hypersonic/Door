@@ -25,11 +25,11 @@ public:
 	
 	Character (std::string sName="", int nArea=0) : m_sName(sName), m_nArea(nArea) { } // Class constructor.
 	
-	std::string GetName() const { return m_sName; } // Access function.
-	int GetArea() const { return m_nArea; } // Access function.
+	std::string GetName() { return m_sName; } // Access function.
+	int GetArea(); // Access function.
 	
-	void SetArea(int nArea) { m_nArea = nArea; } // Function to set character's area.
-	void enter(int i);
+	void SetArea(int nArea); // Function to set character's area.
+	void enter(int cDoor);
 };
 
 #endif
