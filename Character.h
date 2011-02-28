@@ -29,7 +29,7 @@ public:
 	int GetArea(); // Access function.
 	
 	void SetArea(int nArea); // Function to set character's area.
-	void enter(int cDoor);
+	void enter(class Door cDoor);
 };
 
 #endif
