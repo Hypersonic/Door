@@ -19,3 +19,6 @@ Source Files
    Ð Door
       | Door.h -- Header file for Door class
       | Door.cpp -- cpp file for Door class
+   Ð Parser -- Parses input into commands that the game takes
+      | Parser.h -- Header File for Parser class
+      | Parser.cpp -- cpp file for Parser Class
