@@ -32,7 +32,7 @@ void Character::enter (Door cDoor) {
 		}
 		else { // If the character is not on the first or second side of the door...
 			std::cout << "ERROR: Player is not on either side of door." << std::endl; // Tell them that crazy shit be goin on.
-			std::cout << "I'd exit() right now but I can't." << std::endl; } // Halt removed. Replaced with message.
+			exit(0); } // Stop. Bad things are going down, so don't even bother trying to make sense of it.
 	}
 
 	
