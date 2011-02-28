@@ -28,9 +28,9 @@ int main()
 	#include "Declarations.h" // Initialize ingame objects.
 	
 	cout << cPlayer.GetName() << " is standing in Area " << cPlayer.GetArea() << "." << endl;
-	Door1.enter(cPlayer);
+	cPlayer.enter(1);
 	cout << cPlayer.GetName() << " is standing in Area " << cPlayer.GetArea() << "." << endl;
-	Door1.enter(cPlayer);
+	cPlayer.enter(1);
 	cout << cPlayer.GetName() << " is standing in Area " << cPlayer.GetArea() << "." << endl;	
 	
 // BEGIN GAME LOOP SECTION -- NOT READY FOR USE

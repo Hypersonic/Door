@@ -43,7 +43,6 @@ public:
 	int GetKeyID() const { return m_nKeyID; }
 	
 	// Use functions.
-	void enter(Character cCharacter);
 	
 };
 

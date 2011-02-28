@@ -29,6 +29,7 @@ public:
 	int GetArea() const { return m_nArea; } // Access function.
 	
 	void SetArea(int nArea) { m_nArea = nArea; } // Function to set character's area.
+	void enter(int i);
 };
 
 #endif

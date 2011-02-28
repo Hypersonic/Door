@@ -14,7 +14,7 @@
  
  Alright apparantly they don't because this function doesn't work.
  */
-
+/*
 void Door::enter(Character cCharacter) { // Function to allow a character to enter the door.
 
 	cCharacter.SetArea(2); // This appears to be the problem. For some reason, calling cCharacter.SetArea() from Door.cpp doesn't work.
@@ -36,6 +36,7 @@ void Door::enter(Character cCharacter) { // Function to allow a character to ent
 			std::cout << "ERROR: Player is not on either side of door." << std::endl; // Tell them that crazy shit be goin on.
 			std::cout << "I'd exit() right now but I can't." << std::endl; } // Halt removed. Replaced with message.
 		}
-*/
+
 
 }
+*/
