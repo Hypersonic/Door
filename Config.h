@@ -3,7 +3,7 @@
  Includes all constants used in declarations at the beginning of the game.
  */
 
-const string PlayerName = "Herbie"; // The player's name.
+const string PlayerName = "Player"; // The player's name.
 const int OpeningPlayerArea = 1; // The area in which the player is at the beginning of the game.
 
 const string Description_Area1 = "a long hallway with double doors at one end and an elevator at the other."; // Area 1's description.
