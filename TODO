@@ -1,8 +1,5 @@
 TODO:
 
---> Figure out why Door1.enter(cPlayer) does not seem to change the room that
-    cPlayer is in.
-
 --> A set of functions to print things to the terminal rather than just use cout, so
     that statements may be gramatically adjusted ("You are standing" vs. "You is
     standing" while allowing for "He is standing" vs. "He are standing")
