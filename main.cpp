@@ -17,6 +17,7 @@
 
 #include <iostream>
 #include <string>
+#include "Parser.h"
 #include "Character.h"
 #include "Area.h"
 #include "Door.h"
@@ -32,7 +33,7 @@ int main()
 	cout << cPlayer.GetName() << " is standing in Area " << cPlayer.GetArea() << "." << endl;
 	cPlayer.enter(Door1);
 	cout << cPlayer.GetName() << " is standing in Area " << cPlayer.GetArea() << "." << endl;
-	
+	cParser.Parse("lorem ipsum dolor emet");
 // BEGIN GAME LOOP SECTION -- NOT READY FOR USE
 	
 /*	
