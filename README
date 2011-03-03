@@ -3,6 +3,8 @@ DOOR Rev. 3
 TO BUILD: Run
 g++ main.cpp Area.cpp Door.cpp -o door
 
+NOTE: This project now relies on Boost, which is a set of libraries. They are available at Boost.org, and are required to compile.
+
 The executable will be saved as ./door.
 
 
