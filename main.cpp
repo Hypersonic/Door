@@ -44,7 +44,7 @@ int main()
 	while (bGame) // Begin the game loop.
 	{
 		
-		cout << "You are standing in an industrially-lit hallway. There is a door at the end. Go into the next room." << endl;
+		cout << "You are standing in an industrially lit hallway. There is a door at the end. Go into the next room." << endl;
 		
 		bGame = false;
 	
