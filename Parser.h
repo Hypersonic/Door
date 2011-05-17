@@ -13,8 +13,8 @@
 class Parser {
 
 private:
-	std::string Tokenize (std::string input);
-	std::string TokenParser (std::string input);
+	std::string* Tokenize (std::string input);
+	std::string TokenParser (std::string* input);
 	void ExecuteInput (std::string input);
 
 public:
